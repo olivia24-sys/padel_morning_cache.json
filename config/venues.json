@@ -1,0 +1,10 @@
+{
+  "venues": [
+    { "name": "Worldham Alton", "url": "https://playtomic.com/clubs/worldham-padel-alton" },
+    { "name": "ATC Andover", "url": "https://playtomic.com/clubs/atc-padel" },
+    { "name": "Basingstoke", "url": "https://playtomic.com/clubs/padel-people-basingstoke" },
+    { "name": "Boston", "url": "https://playtomic.com/clubs/padel-people-boston" },
+    { "name": "Corsham", "url": "https://playtomic.com/clubs/padel-people-corsham" },
+    { "name": "Shepton Mallet", "url": "https://playtomic.com/clubs/shepton-mallet" }
+  ]
+}
