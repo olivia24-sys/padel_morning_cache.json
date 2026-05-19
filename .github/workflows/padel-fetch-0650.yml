@@ -1,9 +1,9 @@
-name: Padel fetch — 06:50 UTC
+name: Padel fetch — 06:50 CEST
 
 on:
   schedule:
-    - cron: '50 5 * * *'   # 05:50 UTC = 06:50 BST (summer, UTC+1)
-                           # In winter (GMT/UTC+0) this runs at 05:50 local — update to '50 6' then
+    - cron: '50 4 * * *'   # 04:50 UTC = 06:50 CEST (summer, UTC+2)
+                           # In winter (CET/UTC+1) this runs at 05:50 local — update to '50 5' then
   workflow_dispatch:         # allow manual trigger from GitHub Actions UI
 
 permissions:
