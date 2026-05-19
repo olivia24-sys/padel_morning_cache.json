@@ -1,5 +1,7 @@
 // gh-fetch.js — Padel occupancy scraper for GitHub Actions
 // Fetches Playtomic availability for all 6 venues across the next 7 days.
+// Also fetches court info per venue so the dashboard can filter doubles-only
+// without relying on browser localStorage.
 // Writes results to data/padel_morning_cache.json (multi-date format).
 // Run from the root of the padel_morning_cache.json repo.
 
@@ -37,6 +39,24 @@ async function fetchVenueDate(tenantId, date) {
   return r.json(); // returns raw Playtomic array: [{ resource_id, slots:[...] }]
 }
 
+// Fetches which courts are doubles vs singles for a venue.
+// Returns an object matching the ptCourtCache format the dashboard expects.
+async function fetchCourtInfo(tenantId) {
+  const url = `https://api.playtomic.io/v1/tenants/${tenantId}/resources?sport_id=PADEL`;
+  const r = await fetch(url, {
+    signal: AbortSignal.timeout(15000),
+    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; padel-evidence-gatherer/1.0)' },
+  });
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  const raw  = await r.json();
+  const all  = raw.map(c => ({ id: c.resource_id, name: c.name, size: c.properties?.resource_size }));
+  return {
+    fetchedAt: new Date().toISOString(),
+    all,
+    doubleIds: all.filter(c => c.size !== 'single').map(c => c.id),
+  };
+}
+
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function main() {
@@ -46,6 +66,22 @@ async function main() {
   console.log(`\n[${fetchedAt}] Fetching ${PT_VENUES.length} venues × ${dates.length} dates`);
   console.log(`Date range: ${dates[0]} → ${dates[dates.length - 1]}\n`);
 
+  // ---- Court discovery (doubles vs singles) ----------------------------------
+  console.log('Discovering courts…');
+  const courtCache = {};
+  for (const venue of PT_VENUES) {
+    try {
+      const info = await fetchCourtInfo(venue.tenantId);
+      courtCache[venue.id] = info;
+      const singles = info.all.length - info.doubleIds.length;
+      console.log(`  ${venue.name}: ${info.doubleIds.length} doubles${singles ? `, ${singles} single(s) excluded` : ''}`);
+    } catch (e) {
+      console.error(`  ✗ Court fetch failed for ${venue.name}: ${e.message}`);
+    }
+    await sleep(300);
+  }
+
+  // ---- Availability data -----------------------------------------------------
   const venues = [];
 
   for (const venue of PT_VENUES) {
@@ -79,6 +115,7 @@ async function main() {
     fetched_at:   fetchedAt,
     fetch_window: { from: dates[0], to: dates[dates.length - 1] },
     label:        `${dates.length}-day scrape`,
+    court_cache:  courtCache, // dashboard seeds ptCourtCache from this — ensures doubles filtering works
     venues,
   };
 
