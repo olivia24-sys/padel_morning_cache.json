@@ -1,0 +1,63 @@
+{
+  "fetched_at": "2026-05-19T05:55:22.558760+00:00",
+  "sport": "PADEL",
+  "dates": [
+    "2026-05-19",
+    "2026-05-20",
+    "2026-05-21",
+    "2026-05-22",
+    "2026-05-23",
+    "2026-05-24",
+    "2026-05-25"
+  ],
+  "venues": [
+    {
+      "name": "Worldham Alton",
+      "url": "https://playtomic.com/clubs/worldham-padel-alton",
+      "slug": "worldham-padel-alton",
+      "tenant_id": null,
+      "availability": {},
+      "error": "tenant_lookup_failed: http_403: Host not in allowlist"
+    },
+    {
+      "name": "ATC Andover",
+      "url": "https://playtomic.com/clubs/atc-padel",
+      "slug": "atc-padel",
+      "tenant_id": null,
+      "availability": {},
+      "error": "tenant_lookup_failed: http_403: Host not in allowlist"
+    },
+    {
+      "name": "Basingstoke",
+      "url": "https://playtomic.com/clubs/padel-people-basingstoke",
+      "slug": "padel-people-basingstoke",
+      "tenant_id": null,
+      "availability": {},
+      "error": "tenant_lookup_failed: http_403: Host not in allowlist"
+    },
+    {
+      "name": "Boston",
+      "url": "https://playtomic.com/clubs/padel-people-boston",
+      "slug": "padel-people-boston",
+      "tenant_id": null,
+      "availability": {},
+      "error": "tenant_lookup_failed: http_403: Host not in allowlist"
+    },
+    {
+      "name": "Corsham",
+      "url": "https://playtomic.com/clubs/padel-people-corsham",
+      "slug": "padel-people-corsham",
+      "tenant_id": null,
+      "availability": {},
+      "error": "tenant_lookup_failed: http_403: Host not in allowlist"
+    },
+    {
+      "name": "Shepton Mallet",
+      "url": "https://playtomic.com/clubs/shepton-mallet",
+      "slug": "shepton-mallet",
+      "tenant_id": null,
+      "availability": {},
+      "error": "tenant_lookup_failed: http_403: Host not in allowlist"
+    }
+  ]
+}
