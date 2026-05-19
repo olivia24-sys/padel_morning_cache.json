@@ -1,0 +1,72 @@
+{
+  "fetch_timestamp": "2026-05-19T06:52:43.291958+00:00",
+  "date_range": {
+    "from": "2026-05-19",
+    "to": "2026-05-25",
+    "days": [
+      "2026-05-19",
+      "2026-05-20",
+      "2026-05-21",
+      "2026-05-22",
+      "2026-05-23",
+      "2026-05-24",
+      "2026-05-25"
+    ]
+  },
+  "fetch_status": "error",
+  "error": {
+    "reason": "host_not_allowed",
+    "detail": "Outbound network policy blocks api.playtomic.io from this execution environment.",
+    "api_attempted": "https://api.playtomic.io/v1/tenants?sport_id=PADEL"
+  },
+  "venues": [
+    {
+      "name": "Worldham Alton",
+      "url": "https://playtomic.com/clubs/worldham-padel-alton",
+      "slug": "worldham-padel-alton",
+      "fetch_status": "error",
+      "error": "host_not_allowed",
+      "slots": []
+    },
+    {
+      "name": "ATC Andover",
+      "url": "https://playtomic.com/clubs/atc-padel",
+      "slug": "atc-padel",
+      "fetch_status": "error",
+      "error": "host_not_allowed",
+      "slots": []
+    },
+    {
+      "name": "Basingstoke",
+      "url": "https://playtomic.com/clubs/padel-people-basingstoke",
+      "slug": "padel-people-basingstoke",
+      "fetch_status": "error",
+      "error": "host_not_allowed",
+      "slots": []
+    },
+    {
+      "name": "Boston",
+      "url": "https://playtomic.com/clubs/padel-people-boston",
+      "slug": "padel-people-boston",
+      "fetch_status": "error",
+      "error": "host_not_allowed",
+      "slots": []
+    },
+    {
+      "name": "Corsham",
+      "url": "https://playtomic.com/clubs/padel-people-corsham",
+      "slug": "padel-people-corsham",
+      "fetch_status": "error",
+      "error": "host_not_allowed",
+      "slots": []
+    },
+    {
+      "name": "Shepton Mallet",
+      "url": "https://playtomic.com/clubs/shepton-mallet",
+      "slug": "shepton-mallet",
+      "fetch_status": "error",
+      "error": "host_not_allowed",
+      "slots": []
+    }
+  ]
+}
