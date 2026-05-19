@@ -38,7 +38,7 @@ jobs:
       - name: Set up Node.js 20
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           # No npm install needed — gh-fetch.js uses only built-in Node modules (fs, path, fetch)
 
       - name: Run padel scraper
