@@ -2,7 +2,8 @@ name: Padel fetch — 06:50 UTC
 
 on:
   schedule:
-    - cron: '50 6 * * *'   # 06:50 UTC = ~07:50 BST / ~08:50 CEST
+    - cron: '50 5 * * *'   # 05:50 UTC = 06:50 BST (summer, UTC+1)
+                           # In winter (GMT/UTC+0) this runs at 05:50 local — update to '50 6' then
   workflow_dispatch:         # allow manual trigger from GitHub Actions UI
 
 permissions:

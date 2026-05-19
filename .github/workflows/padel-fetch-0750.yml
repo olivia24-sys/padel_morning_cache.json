@@ -2,7 +2,8 @@ name: Padel fetch — 07:50 UTC
 
 on:
   schedule:
-    - cron: '50 7 * * *'   # 07:50 UTC = ~08:50 BST / ~09:50 CEST
+    - cron: '50 6 * * *'   # 06:50 UTC = 07:50 BST (summer, UTC+1)
+                           # In winter (GMT/UTC+0) this runs at 06:50 local — update to '50 7' then
   workflow_dispatch:
 
 permissions:
