@@ -1,0 +1,55 @@
+# Padel continuous fetch — runs every 15 minutes, 24/7
+#
+# WHERE THIS FILE GOES:
+#   .github/workflows/padel-continuous.yml
+#   in the olivia24-sys/padel_morning_cache.json repo
+#
+# ALSO COPY to that repo's root:
+#   gh-fetch.js  (from padel-scraper/gh-fetch.js)
+#
+# REPO VISIBILITY:
+#   Public repo  → unlimited Actions minutes → */15 schedule is free
+#   Private repo → 2,000 min/month free tier → use hourly (0 * * * *) instead
+#
+# The existing morning workflow (daily-fetch or similar) can stay as-is —
+# this one runs in addition to it, keeping data fresh throughout the day.
+
+name: Padel Continuous Fetch
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # every 15 minutes (change to '0 * * * *' if repo is private)
+  workflow_dispatch:           # lets you trigger a run manually from the GitHub UI
+
+permissions:
+  contents: write              # needed to commit the updated data files
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5         # safety cap — scraper should finish well under 2 min
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          # No npm install needed — gh-fetch.js uses only built-in Node modules (fs, path, fetch)
+
+      - name: Run padel scraper
+        run: node gh-fetch.js
+
+      - name: Commit and push data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          # Only commit if there are actual changes (avoids empty commits)
+          git diff --cached --quiet && echo "No data changes" || \
+            git commit -m "chore: padel data $(date -u +'%Y-%m-%dT%H:%M')Z"
+          git push
