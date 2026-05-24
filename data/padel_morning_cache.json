@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-24T01:35:17.414Z",
+  "fetched_at": "2026-05-24T05:46:33.832Z",
   "fetch_window": {
     "from": "2026-05-24",
     "to": "2026-05-31"
@@ -7,7 +7,7 @@
   "label": "8-day scrape",
   "court_cache": {
     "corsham": {
-      "fetchedAt": "2026-05-24T01:35:17.835Z",
+      "fetchedAt": "2026-05-24T05:46:34.231Z",
       "all": [
         {
           "id": "5250c38b-91aa-4476-baa2-105328635786",
@@ -48,7 +48,7 @@
       ]
     },
     "boston": {
-      "fetchedAt": "2026-05-24T01:35:18.263Z",
+      "fetchedAt": "2026-05-24T05:46:34.636Z",
       "all": [
         {
           "id": "b80a2420-fdaf-49d0-a628-76c5da2d7124",
@@ -83,7 +83,7 @@
       ]
     },
     "basingstoke": {
-      "fetchedAt": "2026-05-24T01:35:18.788Z",
+      "fetchedAt": "2026-05-24T05:46:35.134Z",
       "all": [
         {
           "id": "d7a25668-35b9-472f-939c-3bcef790d33d",
@@ -107,7 +107,7 @@
       ]
     },
     "shepton": {
-      "fetchedAt": "2026-05-24T01:35:19.315Z",
+      "fetchedAt": "2026-05-24T05:46:35.631Z",
       "all": [
         {
           "id": "670a62c3-2c44-4638-8aea-7a23dc9eee53",
@@ -137,7 +137,7 @@
       ]
     },
     "atc": {
-      "fetchedAt": "2026-05-24T01:35:19.737Z",
+      "fetchedAt": "2026-05-24T05:46:36.128Z",
       "all": [
         {
           "id": "4d599ccb-ce27-4f37-947d-1df5ad347369",
@@ -156,7 +156,7 @@
       ]
     },
     "worldham": {
-      "fetchedAt": "2026-05-24T01:35:20.263Z",
+      "fetchedAt": "2026-05-24T05:46:36.622Z",
       "all": [
         {
           "id": "e196e8b3-895e-4d1a-9e61-6be8b77387ef",
@@ -198,11 +198,6 @@
             "resource_id": "963fda64-2839-4d74-927e-f536d9ff8d73",
             "start_date": "2026-05-24",
             "slots": [
-              {
-                "start_time": "04:00:00",
-                "duration": 60,
-                "price": "8 GBP"
-              },
               {
                 "start_time": "06:00:00",
                 "duration": 60,
@@ -305,11 +300,6 @@
             "start_date": "2026-05-24",
             "slots": [
               {
-                "start_time": "04:00:00",
-                "duration": 90,
-                "price": "18 GBP"
-              },
-              {
                 "start_time": "07:00:00",
                 "duration": 60,
                 "price": "40 GBP"
@@ -350,11 +340,6 @@
             "resource_id": "c7b51787-021d-492a-a45d-f58d7f191391",
             "start_date": "2026-05-24",
             "slots": [
-              {
-                "start_time": "04:00:00",
-                "duration": 60,
-                "price": "12 GBP"
-              },
               {
                 "start_time": "06:30:00",
                 "duration": 60,
@@ -492,11 +477,6 @@
             "start_date": "2026-05-24",
             "slots": [
               {
-                "start_time": "04:00:00",
-                "duration": 60,
-                "price": "12 GBP"
-              },
-              {
                 "start_time": "06:30:00",
                 "duration": 60,
                 "price": "40 GBP"
@@ -592,36 +572,6 @@
             "resource_id": "1c9986a7-cd4d-4b51-a4c2-fb2405f3b6ec",
             "start_date": "2026-05-24",
             "slots": [
-              {
-                "start_time": "04:00:00",
-                "duration": 60,
-                "price": "8 GBP"
-              },
-              {
-                "start_time": "04:00:00",
-                "duration": 90,
-                "price": "12 GBP"
-              },
-              {
-                "start_time": "04:00:00",
-                "duration": 120,
-                "price": "16 GBP"
-              },
-              {
-                "start_time": "05:00:00",
-                "duration": 60,
-                "price": "8 GBP"
-              },
-              {
-                "start_time": "05:00:00",
-                "duration": 120,
-                "price": "32 GBP"
-              },
-              {
-                "start_time": "05:30:00",
-                "duration": 90,
-                "price": "28 GBP"
-              },
               {
                 "start_time": "06:00:00",
                 "duration": 60,
@@ -743,21 +693,6 @@
             "resource_id": "08772db0-f450-4ed7-bc96-e8e4763d734a",
             "start_date": "2026-05-24",
             "slots": [
-              {
-                "start_time": "04:00:00",
-                "duration": 60,
-                "price": "12 GBP"
-              },
-              {
-                "start_time": "04:00:00",
-                "duration": 120,
-                "price": "24 GBP"
-              },
-              {
-                "start_time": "05:00:00",
-                "duration": 60,
-                "price": "12 GBP"
-              },
               {
                 "start_time": "07:30:00",
                 "duration": 60,
@@ -9785,11 +9720,6 @@
             "start_date": "2026-05-24",
             "slots": [
               {
-                "start_time": "05:00:00",
-                "duration": 60,
-                "price": "8 GBP"
-              },
-              {
                 "start_time": "13:30:00",
                 "duration": 60,
                 "price": "20 GBP"
@@ -10292,11 +10222,6 @@
             "resource_id": "1f3f352b-04da-4b50-ad3c-d50470ce2f42",
             "start_date": "2026-05-24",
             "slots": [
-              {
-                "start_time": "05:00:00",
-                "duration": 60,
-                "price": "8 GBP"
-              },
               {
                 "start_time": "12:00:00",
                 "duration": 60,
@@ -19600,11 +19525,6 @@
             "start_date": "2026-05-24",
             "slots": [
               {
-                "start_time": "05:00:00",
-                "duration": 60,
-                "price": "8 GBP"
-              },
-              {
                 "start_time": "14:30:00",
                 "duration": 90,
                 "price": "48 GBP"
@@ -19620,11 +19540,6 @@
             "resource_id": "d7a25668-35b9-472f-939c-3bcef790d33d",
             "start_date": "2026-05-24",
             "slots": [
-              {
-                "start_time": "05:00:00",
-                "duration": 60,
-                "price": "8 GBP"
-              },
               {
                 "start_time": "15:30:00",
                 "duration": 90,
@@ -23151,26 +23066,6 @@
             "start_date": "2026-05-24",
             "slots": [
               {
-                "start_time": "04:00:00",
-                "duration": 60,
-                "price": "12 GBP"
-              },
-              {
-                "start_time": "04:00:00",
-                "duration": 90,
-                "price": "18 GBP"
-              },
-              {
-                "start_time": "05:00:00",
-                "duration": 90,
-                "price": "31 GBP"
-              },
-              {
-                "start_time": "05:30:00",
-                "duration": 60,
-                "price": "25 GBP"
-              },
-              {
                 "start_time": "12:00:00",
                 "duration": 60,
                 "price": "38 GBP"
@@ -23276,51 +23171,6 @@
             "resource_id": "73d29fb0-48da-49df-99ae-02fea4156e70",
             "start_date": "2026-05-24",
             "slots": [
-              {
-                "start_time": "04:00:00",
-                "duration": 60,
-                "price": "12 GBP"
-              },
-              {
-                "start_time": "04:00:00",
-                "duration": 90,
-                "price": "18 GBP"
-              },
-              {
-                "start_time": "04:00:00",
-                "duration": 120,
-                "price": "24 GBP"
-              },
-              {
-                "start_time": "05:00:00",
-                "duration": 60,
-                "price": "12 GBP"
-              },
-              {
-                "start_time": "05:00:00",
-                "duration": 90,
-                "price": "30 GBP"
-              },
-              {
-                "start_time": "05:00:00",
-                "duration": 120,
-                "price": "48 GBP"
-              },
-              {
-                "start_time": "05:30:00",
-                "duration": 60,
-                "price": "24 GBP"
-              },
-              {
-                "start_time": "05:30:00",
-                "duration": 90,
-                "price": "42 GBP"
-              },
-              {
-                "start_time": "05:30:00",
-                "duration": 120,
-                "price": "60 GBP"
-              },
               {
                 "start_time": "06:00:00",
                 "duration": 60,
@@ -23558,51 +23408,6 @@
             "start_date": "2026-05-24",
             "slots": [
               {
-                "start_time": "04:00:00",
-                "duration": 60,
-                "price": "12 GBP"
-              },
-              {
-                "start_time": "04:00:00",
-                "duration": 90,
-                "price": "18 GBP"
-              },
-              {
-                "start_time": "04:00:00",
-                "duration": 120,
-                "price": "24 GBP"
-              },
-              {
-                "start_time": "05:00:00",
-                "duration": 60,
-                "price": "12 GBP"
-              },
-              {
-                "start_time": "05:00:00",
-                "duration": 90,
-                "price": "30 GBP"
-              },
-              {
-                "start_time": "05:00:00",
-                "duration": 120,
-                "price": "48 GBP"
-              },
-              {
-                "start_time": "05:30:00",
-                "duration": 60,
-                "price": "24 GBP"
-              },
-              {
-                "start_time": "05:30:00",
-                "duration": 90,
-                "price": "42 GBP"
-              },
-              {
-                "start_time": "05:30:00",
-                "duration": 120,
-                "price": "60 GBP"
-              },
-              {
                 "start_time": "06:00:00",
                 "duration": 60,
                 "price": "36 GBP"
@@ -23723,21 +23528,6 @@
             "resource_id": "0c26e2ef-5b8d-49a8-8552-4a651326d124",
             "start_date": "2026-05-24",
             "slots": [
-              {
-                "start_time": "04:00:00",
-                "duration": 60,
-                "price": "10 GBP"
-              },
-              {
-                "start_time": "04:00:00",
-                "duration": 120,
-                "price": "20 GBP"
-              },
-              {
-                "start_time": "05:00:00",
-                "duration": 60,
-                "price": "10 GBP"
-              },
               {
                 "start_time": "07:00:00",
                 "duration": 90,
