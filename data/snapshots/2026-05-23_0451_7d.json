@@ -1,0 +1,44 @@
+{
+  "fetched_at": "2026-05-23T04:51:09Z",
+  "label": "7-day cache",
+  "date_from": "2026-05-23",
+  "date_to": "2026-05-29",
+  "venues": {
+    "corsham": {
+      "name": "Padel People \u2014 Corsham",
+      "fetch_status": "error",
+      "error": "HTTP 403: Forbidden",
+      "slots": null
+    },
+    "boston": {
+      "name": "Padel People \u2014 Boston",
+      "fetch_status": "error",
+      "error": "HTTP 403: Forbidden",
+      "slots": null
+    },
+    "basingstoke": {
+      "name": "Padel People \u2014 Basingstoke",
+      "fetch_status": "error",
+      "error": "HTTP 403: Forbidden",
+      "slots": null
+    },
+    "shepton": {
+      "name": "Padel People \u2014 Shepton Mallet",
+      "fetch_status": "error",
+      "error": "HTTP 403: Forbidden",
+      "slots": null
+    },
+    "atc": {
+      "name": "ATC Padel \u2014 Andover",
+      "fetch_status": "error",
+      "error": "HTTP 403: Forbidden",
+      "slots": null
+    },
+    "worldham": {
+      "name": "Worldham Padel \u2014 Alton",
+      "fetch_status": "error",
+      "error": "HTTP 403: Forbidden",
+      "slots": null
+    }
+  }
+}
