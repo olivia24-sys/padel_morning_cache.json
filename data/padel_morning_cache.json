@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-04T22:38:15.337Z",
+  "fetched_at": "2026-07-04T23:41:52.912Z",
   "fetch_window": {
     "from": "2026-07-04",
     "to": "2026-07-11"
@@ -7,7 +7,7 @@
   "label": "8-day scrape",
   "court_cache": {
     "corsham": {
-      "fetchedAt": "2026-07-04T22:38:15.608Z",
+      "fetchedAt": "2026-07-04T23:41:53.322Z",
       "all": [
         {
           "id": "5250c38b-91aa-4476-baa2-105328635786",
@@ -48,7 +48,7 @@
       ]
     },
     "boston": {
-      "fetchedAt": "2026-07-04T22:38:16.070Z",
+      "fetchedAt": "2026-07-04T23:41:53.736Z",
       "all": [
         {
           "id": "b80a2420-fdaf-49d0-a628-76c5da2d7124",
@@ -83,7 +83,7 @@
       ]
     },
     "basingstoke": {
-      "fetchedAt": "2026-07-04T22:38:16.535Z",
+      "fetchedAt": "2026-07-04T23:41:54.248Z",
       "all": [
         {
           "id": "d7a25668-35b9-472f-939c-3bcef790d33d",
@@ -107,7 +107,7 @@
       ]
     },
     "shepton": {
-      "fetchedAt": "2026-07-04T22:38:17.002Z",
+      "fetchedAt": "2026-07-04T23:41:54.756Z",
       "all": [
         {
           "id": "670a62c3-2c44-4638-8aea-7a23dc9eee53",
@@ -137,7 +137,7 @@
       ]
     },
     "atc": {
-      "fetchedAt": "2026-07-04T22:38:17.470Z",
+      "fetchedAt": "2026-07-04T23:41:55.185Z",
       "all": [
         {
           "id": "4d599ccb-ce27-4f37-947d-1df5ad347369",
@@ -156,7 +156,7 @@
       ]
     },
     "worldham": {
-      "fetchedAt": "2026-07-04T22:38:17.940Z",
+      "fetchedAt": "2026-07-04T23:41:55.598Z",
       "all": [
         {
           "id": "e196e8b3-895e-4d1a-9e61-6be8b77387ef",
@@ -193,41 +193,7 @@
       "id": "corsham",
       "fetch_status": "ok",
       "availability": {
-        "2026-07-04": [
-          {
-            "resource_id": "5250c38b-91aa-4476-baa2-105328635786",
-            "start_date": "2026-07-04",
-            "slots": [
-              {
-                "start_time": "23:00:00",
-                "duration": 60,
-                "price": "16 GBP"
-              }
-            ]
-          },
-          {
-            "resource_id": "7e4f36ae-66c0-4669-85f3-b4881be43b1a",
-            "start_date": "2026-07-04",
-            "slots": [
-              {
-                "start_time": "23:00:00",
-                "duration": 60,
-                "price": "16 GBP"
-              }
-            ]
-          },
-          {
-            "resource_id": "c7b51787-021d-492a-a45d-f58d7f191391",
-            "start_date": "2026-07-04",
-            "slots": [
-              {
-                "start_time": "23:00:00",
-                "duration": 60,
-                "price": "16 GBP"
-              }
-            ]
-          }
-        ],
+        "2026-07-04": [],
         "2026-07-05": [
           {
             "resource_id": "5250c38b-91aa-4476-baa2-105328635786",
