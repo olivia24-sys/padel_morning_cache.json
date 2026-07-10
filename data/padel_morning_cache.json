@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T20:51:54.524Z",
+  "fetched_at": "2026-07-10T21:52:50.274Z",
   "fetch_window": {
     "from": "2026-07-10",
     "to": "2026-07-17"
@@ -7,7 +7,7 @@
   "label": "8-day scrape",
   "court_cache": {
     "corsham": {
-      "fetchedAt": "2026-07-10T20:51:54.876Z",
+      "fetchedAt": "2026-07-10T21:52:50.806Z",
       "all": [
         {
           "id": "5250c38b-91aa-4476-baa2-105328635786",
@@ -48,7 +48,7 @@
       ]
     },
     "boston": {
-      "fetchedAt": "2026-07-10T20:51:55.284Z",
+      "fetchedAt": "2026-07-10T21:52:51.411Z",
       "all": [
         {
           "id": "b80a2420-fdaf-49d0-a628-76c5da2d7124",
@@ -83,7 +83,7 @@
       ]
     },
     "basingstoke": {
-      "fetchedAt": "2026-07-10T20:51:55.787Z",
+      "fetchedAt": "2026-07-10T21:52:51.871Z",
       "all": [
         {
           "id": "d7a25668-35b9-472f-939c-3bcef790d33d",
@@ -107,7 +107,7 @@
       ]
     },
     "shepton": {
-      "fetchedAt": "2026-07-10T20:51:56.286Z",
+      "fetchedAt": "2026-07-10T21:52:52.475Z",
       "all": [
         {
           "id": "670a62c3-2c44-4638-8aea-7a23dc9eee53",
@@ -137,7 +137,7 @@
       ]
     },
     "atc": {
-      "fetchedAt": "2026-07-10T20:51:56.692Z",
+      "fetchedAt": "2026-07-10T21:52:52.931Z",
       "all": [
         {
           "id": "4d599ccb-ce27-4f37-947d-1df5ad347369",
@@ -156,7 +156,7 @@
       ]
     },
     "worldham": {
-      "fetchedAt": "2026-07-10T20:51:57.191Z",
+      "fetchedAt": "2026-07-10T21:52:53.534Z",
       "all": [
         {
           "id": "e196e8b3-895e-4d1a-9e61-6be8b77387ef",
@@ -262,16 +262,6 @@
             "resource_id": "08772db0-f450-4ed7-bc96-e8e4763d734a",
             "start_date": "2026-07-10",
             "slots": [
-              {
-                "start_time": "22:00:00",
-                "duration": 60,
-                "price": "24 GBP"
-              },
-              {
-                "start_time": "22:00:00",
-                "duration": 120,
-                "price": "40 GBP"
-              },
               {
                 "start_time": "23:00:00",
                 "duration": 60,
@@ -819,39 +809,9 @@
                 "price": "44 GBP"
               },
               {
-                "start_time": "16:00:00",
-                "duration": 60,
-                "price": "44 GBP"
-              },
-              {
-                "start_time": "16:00:00",
-                "duration": 90,
-                "price": "66 GBP"
-              },
-              {
-                "start_time": "16:00:00",
-                "duration": 120,
-                "price": "88 GBP"
-              },
-              {
-                "start_time": "17:00:00",
-                "duration": 60,
-                "price": "44 GBP"
-              },
-              {
-                "start_time": "17:00:00",
-                "duration": 120,
-                "price": "88 GBP"
-              },
-              {
                 "start_time": "17:30:00",
                 "duration": 90,
                 "price": "66 GBP"
-              },
-              {
-                "start_time": "18:00:00",
-                "duration": 60,
-                "price": "44 GBP"
               },
               {
                 "start_time": "20:30:00",
@@ -1071,24 +1031,9 @@
                 "price": "40 GBP"
               },
               {
-                "start_time": "12:00:00",
-                "duration": 60,
-                "price": "40 GBP"
-              },
-              {
-                "start_time": "12:00:00",
-                "duration": 90,
-                "price": "60 GBP"
-              },
-              {
                 "start_time": "13:00:00",
                 "duration": 90,
                 "price": "60 GBP"
-              },
-              {
-                "start_time": "13:30:00",
-                "duration": 60,
-                "price": "40 GBP"
               },
               {
                 "start_time": "15:30:00",
@@ -3007,11 +2952,6 @@
               },
               {
                 "start_time": "16:00:00",
-                "duration": 60,
-                "price": "44 GBP"
-              },
-              {
-                "start_time": "18:30:00",
                 "duration": 60,
                 "price": "44 GBP"
               },
@@ -6892,21 +6832,6 @@
                 "price": "36 GBP"
               },
               {
-                "start_time": "19:30:00",
-                "duration": 60,
-                "price": "24 GBP"
-              },
-              {
-                "start_time": "19:30:00",
-                "duration": 90,
-                "price": "36 GBP"
-              },
-              {
-                "start_time": "19:30:00",
-                "duration": 120,
-                "price": "42 GBP"
-              },
-              {
                 "start_time": "20:30:00",
                 "duration": 60,
                 "price": "18 GBP"
@@ -6920,21 +6845,6 @@
                 "start_time": "20:30:00",
                 "duration": 120,
                 "price": "30 GBP"
-              },
-              {
-                "start_time": "21:00:00",
-                "duration": 60,
-                "price": "12 GBP"
-              },
-              {
-                "start_time": "21:00:00",
-                "duration": 90,
-                "price": "18 GBP"
-              },
-              {
-                "start_time": "21:00:00",
-                "duration": 120,
-                "price": "24 GBP"
               },
               {
                 "start_time": "21:30:00",
@@ -9658,19 +9568,7 @@
       "id": "boston",
       "fetch_status": "ok",
       "availability": {
-        "2026-07-10": [
-          {
-            "resource_id": "b80a2420-fdaf-49d0-a628-76c5da2d7124",
-            "start_date": "2026-07-10",
-            "slots": [
-              {
-                "start_time": "21:00:00",
-                "duration": 60,
-                "price": "20 GBP"
-              }
-            ]
-          }
-        ],
+        "2026-07-10": [],
         "2026-07-11": [
           {
             "resource_id": "e1c129a5-7963-4d88-91fc-135efb35633d",
@@ -21374,36 +21272,9 @@
             "start_date": "2026-07-10",
             "slots": [
               {
-                "start_time": "21:30:00",
-                "duration": 90,
-                "price": "24 GBP"
-              },
-              {
                 "start_time": "22:00:00",
                 "duration": 60,
                 "price": "16 GBP"
-              }
-            ]
-          },
-          {
-            "resource_id": "73d29fb0-48da-49df-99ae-02fea4156e70",
-            "start_date": "2026-07-10",
-            "slots": [
-              {
-                "start_time": "21:30:00",
-                "duration": 90,
-                "price": "24 GBP"
-              }
-            ]
-          },
-          {
-            "resource_id": "934e1592-d4e6-4bd4-ab50-cbc77acc19a8",
-            "start_date": "2026-07-10",
-            "slots": [
-              {
-                "start_time": "21:30:00",
-                "duration": 90,
-                "price": "24 GBP"
               }
             ]
           }
@@ -21615,19 +21486,9 @@
                 "price": "44 GBP"
               },
               {
-                "start_time": "05:30:00",
-                "duration": 120,
-                "price": "63 GBP"
-              },
-              {
                 "start_time": "06:00:00",
                 "duration": 60,
                 "price": "38 GBP"
-              },
-              {
-                "start_time": "06:00:00",
-                "duration": 90,
-                "price": "57 GBP"
               },
               {
                 "start_time": "06:00:00",
@@ -21636,31 +21497,11 @@
               },
               {
                 "start_time": "06:30:00",
-                "duration": 60,
-                "price": "38 GBP"
-              },
-              {
-                "start_time": "06:30:00",
                 "duration": 90,
                 "price": "57 GBP"
               },
               {
                 "start_time": "07:00:00",
-                "duration": 60,
-                "price": "38 GBP"
-              },
-              {
-                "start_time": "07:00:00",
-                "duration": 120,
-                "price": "76 GBP"
-              },
-              {
-                "start_time": "07:30:00",
-                "duration": 90,
-                "price": "57 GBP"
-              },
-              {
-                "start_time": "08:00:00",
                 "duration": 60,
                 "price": "38 GBP"
               },
@@ -29084,46 +28925,6 @@
             "start_date": "2026-07-11",
             "slots": [
               {
-                "start_time": "08:00:00",
-                "duration": 60,
-                "price": "40 GBP"
-              },
-              {
-                "start_time": "08:00:00",
-                "duration": 90,
-                "price": "60 GBP"
-              },
-              {
-                "start_time": "08:00:00",
-                "duration": 120,
-                "price": "80 GBP"
-              },
-              {
-                "start_time": "08:00:00",
-                "duration": 150,
-                "price": "100 GBP"
-              },
-              {
-                "start_time": "08:30:00",
-                "duration": 60,
-                "price": "40 GBP"
-              },
-              {
-                "start_time": "08:30:00",
-                "duration": 90,
-                "price": "60 GBP"
-              },
-              {
-                "start_time": "08:30:00",
-                "duration": 120,
-                "price": "80 GBP"
-              },
-              {
-                "start_time": "08:30:00",
-                "duration": 150,
-                "price": "100 GBP"
-              },
-              {
                 "start_time": "09:00:00",
                 "duration": 60,
                 "price": "40 GBP"
@@ -30214,21 +30015,6 @@
               },
               {
                 "start_time": "17:00:00",
-                "duration": 60,
-                "price": "40 GBP"
-              },
-              {
-                "start_time": "19:00:00",
-                "duration": 60,
-                "price": "40 GBP"
-              },
-              {
-                "start_time": "19:00:00",
-                "duration": 90,
-                "price": "60 GBP"
-              },
-              {
-                "start_time": "19:30:00",
                 "duration": 60,
                 "price": "40 GBP"
               }
@@ -31361,21 +31147,6 @@
                 "start_time": "06:30:00",
                 "duration": 90,
                 "price": "51 GBP"
-              },
-              {
-                "start_time": "12:00:00",
-                "duration": 90,
-                "price": "57 GBP"
-              },
-              {
-                "start_time": "12:30:00",
-                "duration": 90,
-                "price": "54 GBP"
-              },
-              {
-                "start_time": "13:00:00",
-                "duration": 60,
-                "price": "34 GBP"
               },
               {
                 "start_time": "17:30:00",
